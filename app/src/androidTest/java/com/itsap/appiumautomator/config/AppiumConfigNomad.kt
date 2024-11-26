@@ -26,6 +26,7 @@ object AppiumConfigNomad {
             setCapability("appium:platformName", "Android")
             setCapability("appium:platformVersion", "14")
             setCapability("appium:automationName", "UiAutomator2")
+            setCapability("appium:app", "C:/Users/argane.samson/AndroidStudioProjects/AppiumAutomator/apks/Nomad-8.1.10-vistest.apk")
 //            setCapability("appium:appPackage", "fr.itsap.app_intervenants.vistest")
 //            setCapability("appium:appActivity", "fr.itsap.app_intervenants.MainActivity")
         }
